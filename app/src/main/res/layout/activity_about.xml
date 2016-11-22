@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sabu.bongobondhu.AboutActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="512dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:text="@string/about_desone"
+            android:textColor="#1a1a1a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:id="@+id/textView21"
+            android:layout_centerVertical="true"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="181dp" />
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            app:srcCompat="@drawable/mujib"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imageView14"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:text="জাতির জনক"
+            android:textColor="#790606"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            tools:layout_editor_absoluteX="138dp"
+            tools:layout_editor_absoluteY="64dp"
+            android:layout_below="@+id/imageView14"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="Version: 1.0"
+            android:textColor="#1a1a1a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12"
+            tools:layout_editor_absoluteX="155dp"
+            tools:layout_editor_absoluteY="88dp"
+            android:layout_below="@+id/textView11"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="Developed By"
+            android:textColor="#790606"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView23"
+            tools:layout_editor_absoluteX="149dp"
+            tools:layout_editor_absoluteY="429dp"
+            android:layout_above="@+id/textView22"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="Developed By"
+            android:textColor="#4d4dff"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView22"
+            tools:layout_editor_absoluteX="143dp"
+            tools:layout_editor_absoluteY="445dp"
+            android:layout_above="@+id/textView24"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="Developer: A. K. M. Shahab Uddin"
+            android:textColor="#1a1a1a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView24"
+            tools:layout_editor_absoluteX="88dp"
+            tools:layout_editor_absoluteY="495dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="17dp" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sabu.bongobondhu.SplashScreenActivity">
+
+    <TextView
+        android:text="@string/splash"
+        android:textSize="18dp"
+        android:textColor="#790606"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="375dp"
+        android:id="@+id/textView_splash"
+        android:layout_alignBottom="@+id/imageView_splash"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sheikh_mujibur_rahman_splash"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:id="@+id/imageView_splash"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="36dp" />
+
+    <TextView
+        android:text="@string/splash_title"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#790606"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView8"
+        android:layout_alignTop="@+id/imageView_splash"
+        android:layout_alignRight="@+id/textView_splash"
+        android:layout_alignEnd="@+id/textView_splash" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/unnamed"
+        android:id="@+id/imageView15"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp" />
+
+    <TextView
+        android:text="tutexp"
+        android:textSize="16dp"
+        android:textColor="#4d4dff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/textView25" />
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_introduction"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.sabu.bongobondhu.IntroductionActivity">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+
+    <ListView
+        android:layout_width="378dp"
+        android:layout_height="480dp"
+        android:id="@+id/life"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="384dp"
+        android:layout_height="52dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="459dp"
+        android:layout_below="@+id/life"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>
+</ScrollView>
